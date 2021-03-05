@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>CURD project</title>
+    <link rel="stylesheet" href="{% static 'enroll/css/bootstrap.css' %}" >
+</head>
+<body style="background-color:background: #d9a7c7;
+background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
+background: linear-gradient(to right, #fffcdc, #d9a7c7);
+">
+<div class="container mt-5">
+<h2 class="text-centre alert alert-dark">Functional Based View Modelform CRUD Project</h2>
+{% block content %}{% endblock %}
+</div>
+
+<script src="{% static 'enroll/js/jquery.js' %}"></script>
+<script src="{% static 'enroll/js/popper.js' %}"></script>
+<script src="{% static 'enroll/js/bootstrap.js' %}"></script>
+
+</body>
+</html>
